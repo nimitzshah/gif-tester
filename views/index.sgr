@@ -1,4 +1,8 @@
 extends(src='layout.sgr')
+  block(name='meta' type='append')
+    meta(property='og:type' content='video.other')
+    meta(property='og:image' content='https://media.giphy.com/media/m80Q4HTDNPFHq/giphy.gif')
+    meta(property='og:video' content='https://media.giphy.com/media/m80Q4HTDNPFHq/giphy.gif')
   block(name='content')
     h2 Hello World!
     p Thanks for using <a href='https://github.com/static-dev/spike'>spike</a>
