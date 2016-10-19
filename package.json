@@ -1,0 +1,36 @@
+{
+  "name": "gif-tester",
+  "description": "",
+  "version": "0.0.1",
+  "author": "",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com//gif-tester/issues",
+  "dependencies": {
+    "babel-preset-latest": "^6.14.0",
+    "hard-source-webpack-plugin": "0.0.38",
+    "reshape-standard": "^0.4.0",
+    "spike": "^0.12.1",
+    "spike-css-standards": "^0.1.1",
+    "spike-page-id": "^0.1.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "rimraf": "^2.5.4",
+    "snazzy": "^5.0.0",
+    "spike-core": "^0.12.1",
+    "standard": "^8.0.0"
+  },
+  "homepage": "https://github.com//gif-tester",
+  "main": "app.js",
+  "private": "true",
+  "repository": "https://github.com//gif-tester",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava"
+  }
+}
