@@ -1,9 +1,8 @@
 extends(src='layout.sgr')
   block(name='meta' type='append')
-    meta(property='og:type' content='video.other')
-    meta(property='og:image' content='https://media.giphy.com/media/m80Q4HTDNPFHq/giphy.gif')
-    meta(property='og:video' content='https://media.giphy.com/media/m80Q4HTDNPFHq/giphy.gif')
+    meta(property='og:url' content='http://dreamcorpllc.com/img/signspinner_main.gif')
   block(name='content')
+    a(href='https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdreamcorpllc.com%2Fimg%2Fsignspinner_main.gif') Share Now
     h2 Hello World!
     p Thanks for using <a href='https://github.com/static-dev/spike'>spike</a>
     p Example of locals: {{ foo }}
